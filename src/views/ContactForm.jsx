@@ -23,7 +23,7 @@ const ContactForm = () => {
       .then(response => {
         if (response.status === 200) {
           alert("Message Sent.");
-        } else if (response.status === 500 || 404) {
+        } else if (response.status === 500 || 503) {
           alert("Message failed to send.");
         }
       })
