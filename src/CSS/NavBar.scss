@@ -1,0 +1,17 @@
+.navbar {
+  flex: 0;
+  // border-bottom: 1px solid white;
+  height: 5vh;
+  display: flex;
+  flex: 0;
+  margin: 1% 1%;
+  justify-content: space-evenly;
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    &:hover {
+      color: #e73c7e;
+    }
+  }
+}
